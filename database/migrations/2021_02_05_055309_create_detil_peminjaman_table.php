@@ -13,7 +13,7 @@ class CreateDetilPeminjamanTable extends Migration
      */
     public function up()
     {
-        Schema::create('_detil_peminjaman', function (Blueprint $table) {
+        Schema::create('detil_peminjaman', function (Blueprint $table) {
             $table->bigIncrements('iD_DetilPeminjaman');
             $table -> unsignedBigInteger('NISN_Buku');
             $table -> foreign('NISN_Buku')-> references ('ISBN/NISN') -> on ('_buku');
