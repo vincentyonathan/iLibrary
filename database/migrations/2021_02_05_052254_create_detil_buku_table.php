@@ -13,7 +13,7 @@ class CreateDetilBukuTable extends Migration
      */
     public function up()
     {
-        Schema::create('_detil_buku', function (Blueprint $table) {
+        Schema::create('detil_buku', function (Blueprint $table) {
             $table-> bigIncrements('iD_DetilBuku');
             $table -> string('Judul_Buku');
             $table -> smallInteger ('Tahun_Terbit');

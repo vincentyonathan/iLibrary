@@ -13,7 +13,7 @@ class CreateBukuTable extends Migration
      */
     public function up()
     {
-        Schema::create('_buku', function (Blueprint $table) {
+        Schema::create('buku', function (Blueprint $table) {
             $table->id('ISBN/NISN');
             $table -> string ('Kondisi_Buku');
             $table -> string ('Status_Buku');
