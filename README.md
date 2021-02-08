@@ -8,7 +8,7 @@
 </p>
 
 ## About this Project
-This project is an e-Library System for Learning purposes created with Laravel with the domain mother language PHP, This project is under development and are targeted to finish on the end of March. Below is the Lisence README of LARAVEL.
+This project is an e-Library System based Web, with the frontend of Bootstrap for Learning purposes created with Laravel with the domain mother language PHP, This project is under development and are targeted to finish on the end of March. Below is the Lisence README of LARAVEL.
 
 ## About Laravel
 
