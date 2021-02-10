@@ -18,7 +18,7 @@ class CreateBukuTable extends Migration
             $table -> string ('Kondisi_Buku');
             $table -> string ('Status_Buku');
             $table -> unsignedBigInteger('iD_DetilBuku');
-            $table -> foreign('iD_DetilBuku')-> references('iD_DetilBuku')-> on ('_detil_buku');
+            $table -> foreign('iD_DetilBuku')-> references('iD_DetilBuku')-> on ('detil_buku');
         });
     }
 

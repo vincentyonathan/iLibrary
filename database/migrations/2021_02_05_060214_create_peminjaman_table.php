@@ -15,10 +15,10 @@ class CreatePeminjamanTable extends Migration
     {
         Schema::create('peminjaman', function (Blueprint $table) {
             $table-> bigIncrements('iD_Peminjaman');
-            $table -> unsignedBigInteger('iD_Pelanggan');
-            $table -> foreign ('iD_Pelanggan') -> references ('iD_Pelanggan')-> on ('pelanggan');
-            $table -> unsignedBigInteger('iD_Pegawai');
-            $table -> foreign ('iD_Pegawai') -> references ('iD_Pegawai')-> on ('pegawai');
+            #$table -> unsignedBigInteger('iD_Pelanggan');
+            #$table -> foreign ('iD_Pelanggan') -> references ('iD_Pelanggan')-> on ('pelanggan');
+            #$table -> unsignedBigInteger('iD_Pegawai');
+            #$table -> foreign ('iD_Pegawai') -> references ('iD_Pegawai')-> on ('pegawai');
             $table -> date('Tanggal_Peminjaman');
             $table -> date('Tanggal_JatuhTempo');
             $table -> date('Tanggal_Pengembalian');
