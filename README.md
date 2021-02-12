@@ -10,6 +10,12 @@
 ## About this Project
 This project is an e-Library System based Web, with the frontend of Bootstrap for Learning purposes created with Laravel with the domain mother language PHP, This project is under development and are targeted to finish on the end of March. Below is the Lisence README of LARAVEL.
 
+## Contributor
+- Daniel Lumbantobing
+- Vincent Yonathan
+- Gerald Elroy Van Ryan
+- Jonathan Siregar
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
